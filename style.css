@@ -8,12 +8,7 @@ header{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCukYY9AJy4uQq91ZkHLjdRnmnEx_b0e3OhTKz_UrpbR4HoTxhF8VIn2V8SX931-mEgQI&usqp=CAU");
 }
 
-header h1::before{
-    display:inline-block;
-    content: url("https://icons8.com/icon/eqFWzaWgIDcw/watches-front-view");
-    width: 1px;
-    height: 1px;
-}
+
 nav{
     justify-content: space-around;
     display: flex;
