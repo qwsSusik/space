@@ -1,0 +1,48 @@
+h1{
+    color: greenyellow;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    justify-content: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCukYY9AJy4uQq91ZkHLjdRnmnEx_b0e3OhTKz_UrpbR4HoTxhF8VIn2V8SX931-mEgQI&usqp=CAU");
+}
+header h1::before{
+    display:inline-block;
+    content: url("https://icons8.com/icon/eqFWzaWgIDcw/watches-front-view");
+    width: 1px;
+    height: 1px;
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+}
+nav a{
+    background-image:url("https://cdn1.ozonusercontent.com/s3/club-storage/images/article_image_752x940/882/c500/a08b2b27-a9fa-488b-aee6-0b9d819ea366.jpeg") ;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    color: greenyellow;
+}
+body{
+    background-image:url(https://futurenow.com.ua/wp-content/uploads/2020/04/tsikavi-fakty-pro-kosmos-12-rechej-v-yaki-vazhko-poviryty-2.jpg);
+}
+
+h2{
+    color: greenyellow;
+}
+p{
+    color: greenyellow;
+}
+footer img{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+footer p{
+    float: left;
+}
+main img{
+    width: 1000px;
+}
